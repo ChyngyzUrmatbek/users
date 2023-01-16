@@ -1,0 +1,43 @@
+* {box-sizing: border-box;}
+.form {
+    width: 700px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    height: 176px;
+}
+
+.form-box{
+    width: 720px;
+    margin-top: 3rem;
+   
+    background-color: white;
+    border-radius: 10px;
+}
+
+.add-btn{
+    width: 150px;
+    height: 30px;
+    background-color:#420d5c ;
+    border: solid #420d5c;
+    color: white;
+    margin-top: 1rem;
+}
+input{
+    height: 30px;
+    border: solid#cccccc; 
+    background-color: white;
+}
+label{
+    font-size: 1.4rem;
+    font-weight: 800;
+    margin-bottom: 5px;
+}
+.disabled{
+    width: 150px;
+    height: 30px;
+    background-color: gray ;
+    border: solid gray;
+    color: white;
+    margin-top: 1rem;  
+}
